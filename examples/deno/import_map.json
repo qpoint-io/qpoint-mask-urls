@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@qpoint/router": "https://esm.sh/@qpoint/router@0.1.6?bundle",
+    "@qpoint/proxy": "https://esm.sh/@qpoint/proxy@0.1.0?bundle",
+    "@qpoint/mask-urls": "https://esm.sh/@qpoint/mask-urls@0.1.0?bundle",
+    "@qpoint/rewrite-html": "https://esm.sh/@qpoint/rewrite-html@0.1.0?bundle"
+  }
+}
