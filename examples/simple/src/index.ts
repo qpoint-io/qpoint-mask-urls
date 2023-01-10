@@ -5,10 +5,15 @@ import rewriteHtml from "@qpoint/rewrite-html";
 
 export default new Router()
   // proxy to qpoint.io
-  .use(proxy({ appUrl: "https://qpoint.io" }))
+  // .use(proxy({ appUrl: "https://qpoint.io" }))
+
+  // proxy to www.newegg.com
+  .use(proxy({ appUrl: "https://www.newegg.com" }))
 
   // mask the urls to match the proxy endpoint
-  .use(maskUrls())
+  .use(maskUrls({
+    absolute: true
+  }))
 
   // activate the rewrite
   .use(rewriteHtml({}))

@@ -21,10 +21,10 @@
     "wrangler": "2.0.23"
   },
   "dependencies": {
-    "@qpoint/mask-urls": "^0.1.0",
+    "@qpoint/mask-urls": "file:../..",
     "@qpoint/proxy": "^0.1.0",
     "@qpoint/replace-content": "^0.1.0",
     "@qpoint/rewrite-html": "^0.1.0",
-    "@qpoint/router": "^0.1.2"
+    "@qpoint/router": "^0.1.12"
   }
 }
