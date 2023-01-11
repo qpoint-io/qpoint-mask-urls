@@ -27,6 +27,14 @@ export default function rewriteHtml(config: MaskUrlsConfig = {}) {
     if (ctx.state['mask-urls.config'])
       config = ctx.state['mask-urls.config'] as MaskUrlsConfig
 
+    // default absolute to false
+    if (!('absolute' in config))
+      config.absolute = false
+
+    // mask assets by default
+    if (!('maskAssets' in config))
+      config.maskAssets = true
+
     // generate an assets config
     const assetsConfig = {
       ...config,
