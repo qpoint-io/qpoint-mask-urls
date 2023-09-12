@@ -1,6 +1,6 @@
 {
   "name": "@qpoint/mask-urls",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "A Qpoint adapter for masking URLs behind a reverse proxy",
   "author": "Tyler Flint <tyler@qpoint.io>",
   "homepage": "https://github.com/qpoint-io/qpoint-mask-urls",
@@ -19,7 +19,7 @@
     "bundle": "esbuild src/index.ts --outdir=dist --bundle --sourcemap=external --platform=browser --format=esm"
   },
   "dependencies": {
-    "@qpoint/router": "^0.1.12"
+    "@qpoint/router": "^0.2.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^3.5.1",
