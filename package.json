@@ -1,6 +1,6 @@
 {
   "name": "@qpoint/mask-urls",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "description": "A Qpoint adapter for masking URLs behind a reverse proxy",
   "author": "Tyler Flint <tyler@qpoint.io>",
   "homepage": "https://github.com/qpoint-io/qpoint-mask-urls",
