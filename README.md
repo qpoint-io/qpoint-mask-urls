@@ -15,12 +15,12 @@ The proxy needs to mask the url to match the outer domain URL: https://qpoint.io
 ## Usage
 
 ```ts
-import Router from "@qpoint/router";
+import Endpoint from "@qpoint/endpoint";
 import proxy from "@qpoint/proxy";
 import maskUrls from "@qpoint/mask-urls";
 import rewriteHtml from "@qpoint/rewrite-html";
 
-export default new Router()
+export default new Endpoint()
   // proxy to qpoint.io
   .use(proxy({ appUrl: "https://qpoint.io" }))
 

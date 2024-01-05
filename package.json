@@ -16,10 +16,10 @@
   "scripts": {
     "build": "tsc",
     "release": "npm publish --access=public",
-    "bundle": "esbuild src/index.ts --outdir=dist --bundle --sourcemap=external --platform=browser --format=esm"
+    "bundle": "npx esbuild src/index.ts --outdir=dist --bundle --sourcemap=external --platform=browser --format=esm"
   },
   "dependencies": {
-    "@qpoint/router": "^0.2.0"
+    "@qpoint/endpoint": "^0.0.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^3.5.1",
