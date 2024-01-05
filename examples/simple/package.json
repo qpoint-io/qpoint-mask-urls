@@ -22,9 +22,9 @@
   },
   "dependencies": {
     "@qpoint/mask-urls": "file:../..",
-    "@qpoint/proxy": "^0.1.0",
-    "@qpoint/replace-content": "^0.1.0",
-    "@qpoint/rewrite-html": "^0.1.0",
+    "@qpoint/proxy": "^0.2.1",
+    "@qpoint/replace-content": "^0.2.1",
+    "@qpoint/rewrite-html": "^0.2.1",
     "@qpoint/endpoint": "^0.0.1"
   }
 }
