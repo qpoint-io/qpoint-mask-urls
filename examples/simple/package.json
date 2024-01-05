@@ -25,6 +25,6 @@
     "@qpoint/proxy": "^0.1.0",
     "@qpoint/replace-content": "^0.1.0",
     "@qpoint/rewrite-html": "^0.1.0",
-    "@qpoint/router": "^0.1.12"
+    "@qpoint/endpoint": "^0.0.1"
   }
 }

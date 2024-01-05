@@ -1,4 +1,4 @@
-import { Context } from '@qpoint/router'
+import { Context } from '@qpoint/endpoint'
 import { UrlRewriter } from './url-rewriter'
 
 export interface MaskUrlsConfig {
